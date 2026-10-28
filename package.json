@@ -1,0 +1,48 @@
+{
+  "name": "devlens-mcp",
+  "version": "0.1.0",
+  "description": "Production-grade MCP server for JavaScript/TypeScript code analysis, dependency tracing, change impact analysis, and risk assessment.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "devlens-mcp": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "code-analysis",
+    "typescript",
+    "ast",
+    "dependency-graph",
+    "impact-analysis"
+  ],
+  "author": "DevLens Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "fast-glob": "^3.3.3",
+    "ignore": "^7.0.3",
+    "typescript": "^5.8.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "vitest": "^3.0.8"
+  }
+}
