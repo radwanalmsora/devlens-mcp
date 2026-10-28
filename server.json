@@ -3,19 +3,25 @@
   "name": "devlens-mcp",
   "title": "DevLens MCP",
   "description": "Production-grade MCP server for JavaScript/TypeScript code analysis, dependency tracing, change impact analysis, and risk assessment.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/radwanalmsora/devlens-mcp",
   "repository": {
     "type": "git",
     "url": "https://github.com/radwanalmsora/devlens-mcp.git"
   },
   "license": "MIT",
-  "categories": ["developer-tools", "code-analysis"],
+  "categories": [
+    "developer-tools",
+    "code-analysis"
+  ],
   "remotes": [
     {
       "transport": "stdio",
       "command": "npx",
-      "args": ["-y", "devlens-mcp"]
+      "args": [
+        "-y",
+        "devlens-mcp"
+      ]
     }
   ],
   "capabilities": {
