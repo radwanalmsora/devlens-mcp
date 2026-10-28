@@ -1,13 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.radwanalmsora/devlens-mcp",
+  "title": "DevLens MCP",
   "description": "Production TypeScript & JavaScript AST code analysis and risk assessment MCP server.",
-  "version": "0.1.5",
+  "version": "0.1.7",
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/radwanalmsora/devlens-mcp"
+  },
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@radwanalmsora26/devlens-mcp",
-      "version": "0.1.5",
+      "version": "0.1.7",
       "transport": {
         "type": "stdio"
       }
