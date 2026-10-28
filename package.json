@@ -44,5 +44,6 @@
   "devDependencies": {
     "@types/node": "^22.13.9",
     "vitest": "^3.0.8"
-  }
+  },
+  "mcpName": "io.github.radwanalmsora/devlens-mcp"
 }
