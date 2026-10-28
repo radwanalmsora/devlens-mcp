@@ -1,30 +1,16 @@
 {
-  "$schema": "https://modelcontextprotocol.io/schemas/server.json",
-  "name": "devlens-mcp",
-  "title": "DevLens MCP",
-  "description": "Production-grade MCP server for JavaScript/TypeScript code analysis, dependency tracing, change impact analysis, and risk assessment.",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.radwanalmsora/devlens-mcp",
+  "description": "Production TypeScript & JavaScript AST code analysis and risk assessment MCP server.",
   "version": "0.1.4",
-  "homepage": "https://github.com/radwanalmsora/devlens-mcp",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/radwanalmsora/devlens-mcp.git"
-  },
-  "license": "MIT",
-  "categories": [
-    "developer-tools",
-    "code-analysis"
-  ],
-  "remotes": [
+  "packages": [
     {
-      "transport": "stdio",
-      "command": "npx",
-      "args": [
-        "-y",
-        "devlens-mcp"
-      ]
+      "registryType": "npm",
+      "identifier": "@radwanalmsora26/devlens-mcp",
+      "version": "0.1.4",
+      "transport": {
+        "type": "stdio"
+      }
     }
-  ],
-  "capabilities": {
-    "tools": true
-  }
+  ]
 }
