@@ -1,6 +1,6 @@
 {
   "name": "@radwanalmsora26/devlens-mcp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Production-grade MCP server for JavaScript/TypeScript code analysis, dependency tracing, change impact analysis, and risk assessment.",
   "type": "module",
   "main": "./dist/index.js",
